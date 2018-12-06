@@ -1,0 +1,11 @@
+body{background-color: #ebebeb;font-family: 'Open Sans';}
+.wrapper{max-width:800px;margin: 0 auto;}
+.tab{margin-bottom: 20px;background-color: #ffffff;cursor: pointer;}
+.tab h1{font-size: 28px;line-height: 30px;background-color: #ffc10754;padding: 20px 0px;width: 100%;position: relative;}
+.tab h1:after{position: absolute;content: '';right: 15px;top:0px;bottom: 0px;margin: auto;background-image: url(plus_circle_hv.png);width: 40px;height: 40px;background-repeat: no-repeat;transition: 0.5s all ease;-webkit-transition:0.5s all ease;-moz-transition:0.5s all ease;-o-transition:0.5s all ease;}
+.tab.active h1:after{background-image: url(minus_circle_hv.png);}
+.tab .content{display: none;width: 100%;}
+.tab .content p{display: inline-block;vertical-align: top;padding: 20px;}
+
+
+
